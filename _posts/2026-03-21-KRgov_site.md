@@ -4,7 +4,7 @@ author: vulcan
 date: 2026-03-21 23:50:00 +0800
 categories: [Blogging]
 tags: [draft]
-render_with_liquid: false
+render_with_liquid: true
 math: false
 mermaid: true
 ---
