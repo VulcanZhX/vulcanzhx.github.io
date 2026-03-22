@@ -1,0 +1,53 @@
+--- 
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+
+/* append your custom style below */
+
+/* 侧边栏相关文字样式设置 */
+#sidebar .site-title {
+    color: #ffffff !important;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#sidebar .site-subtitle {
+    color: #ffffff !important;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.7);
+}
+
+#sidebar ul li.nav-item a.nav-link span{
+    font-size: 100%;
+}
+
+#sidebar ul li.nav-item a.nav-link {
+    color: #ffffff !important;
+}
+
+/* 侧边栏背景图片添加 */
+#sidebar {
+    background-image: url(https://cdn.jsdelivr.net/gh/huanyushi/blog-images@main/img/background2.png); /* <- change background image, use huanyushi's as placeholder */
+    background-size: cover; /* <- customize the image size */
+    background-repeat: no-repeat; /* <- no-repeat */
+    background-position: top; /* <- image position */
+}
+
+/* 分割线加粗 */
+hr {
+    border: none;
+    border-top: 1.5px solid #4f4f4f;  /* 通常主题为 #bbb，改成 #333 更深 */
+    margin: 20px 0;
+}
+
+/* 暗色模式下 */
+@media (prefers-color-scheme: dark) {
+    hr {
+        border-top-color: #ababab;
+    }
+}
