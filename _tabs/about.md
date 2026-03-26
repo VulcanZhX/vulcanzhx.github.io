@@ -8,7 +8,7 @@ order: 4
 
 <!-- > This is the comprehensive launch complex for Vulcan Chan. -->
 
-# **Welcome to VulcanZh BLOG!**
+## **Welcome to VulcanZh BLOG!**
 
 ---
 This is a personal blog site for my random thoughts and maybe some technical notes. Currently the site is in trial operation, lots of features to be implemented and blogs to be uploaded.
